@@ -1,0 +1,12 @@
+import java.util.*;
+public class HelloWorld{
+     public static void main(String []args){
+        Map<String,Integer> mymap=new HashMap<>();
+        mymap.put("science",67);
+        mymap.put("maths",77);
+        System.out.println(mymap.get("science"));
+        if(mymap.containsKey("maths")){
+            System.out.println(mymap.get("maths"));
+        }
+     }
+}
